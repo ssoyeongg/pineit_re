@@ -1,0 +1,83 @@
+$(document).ready(function(){
+  //햄버거 메뉴 클릭 시 쇼&하이드
+  $(".hamburger").click(function(){
+    $(".hamburger").addClass("on");
+    $(".popup_menu").fadeIn();
+  });
+  $(".btn_close").click(function(){
+    $(".hamburger").removeClass("on");
+    $(".popup_menu").fadeOut();
+  });
+
+  //소개 영역 탭 메뉴
+  $(".cont_left_area > ul > li").click(function(){
+    $(".cont_left_area > ul > li").removeClass("active");
+    $(this).addClass("active");
+
+    var con_id = $(this).data("title");
+    $(".item").hide();
+    $("#"+con_id).show();
+  });
+
+  //뉴스 영역 스와이퍼
+  var news_swiper = new Swiper(".news_swiper", {
+    slidesPerView: "auto",
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+    },
+  });
+
+  //뉴스 영역 탭 메뉴
+  $(".tap_menu > ol > li").click(function(){
+    $(".tap_menu > ol > li").removeClass("on");
+    $(this).addClass("on");
+
+    var con_id = $(this).data("title");
+    $(".news_wrap").hide();
+    $("#"+con_id).show();
+  });
+
+  //원격&탑버튼 스크롤 시 나타남
+  // $(window).scroll(function(){
+  //   if($(window).scrollTop()>=650){
+  //     $(".quick_menu_btn").fadeIn(500);
+  //   } else {
+  //     $(".quick_menu_btn").fadeOut(500);
+  //   }
+  // });
+    
+  $(".sub_top_bg").addClass('on');
+
+  //서브페이지 depth
+  $(".mo_page_depth > span").click(function(){
+    $(".page_depth2").toggle();
+  });
+
+  //클릭이벤트
+  $(window).resize(function() {
+    if($(window).width() < 1024) { 		
+      $(".port_list li").click(function(){        
+        $(".port_list li").removeClass("on");
+        $(this).addClass("on");          
+      });
+    } 
+  });
+
+  //구축사례 탭메뉴
+  $(".port_tab > li").click(function(){
+    $(".port_tab > li").removeClass("on");
+    $(this).addClass("on");
+
+    var port_class = $(this).data("title");
+    $(".port_list > li").hide();
+    $("."+port_class).show();
+  });
+  
+  $(".port_tab > li.all").click(function () {
+    $(".port_tab > li").removeClass("on");
+    $(this).addClass("on");
+    $(".port_list > li").show();
+  });
+
+});

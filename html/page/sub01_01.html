@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/hover.css">
+  <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/media.css">
+  <link rel="stylesheet" href="../css/sub.css">
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/wow.min.js"></script>
+  <script src="../js/main.js"></script>
+  <title>주식회사 소나무정보기술</title>
+</head>
+<body>
+  <div class="wrap">
+    <!--헤더-->
+    <header id="header">
+      <div class="header_inner">
+        <h1 class="header_logo">
+          <a href="../index.html">
+            <img src="../images/common/img_logo.png" alt="주식회사 소나무정보기술">
+          </a>
+        </h1>
+        <div class="right_area">
+          <nav id="navi">
+            <ul class="gnb">
+              <li>
+                <a href="./sub01_01.html">회사소개</a>
+                <ol class="depth2">
+                  <li>
+                    <a href="./sub01_01.html">
+                      연혁
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./sub01_02.html">
+                      인증 및 자격
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/bbs/board.php?bo_table=news">
+                      보도자료
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./sub01_04.html">
+                      오시는 길
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a href="./sub02_01.html">사업분야</a>
+                <ol class="depth2">
+                  <li>
+                    <a href="./sub02_01.html">
+                      솔루션 개발
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./sub02_02.html">
+                      기업 사이트 구축
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./sub02_03.html">
+                      구축사례
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a href="/bbs/board.php?bo_table=notice">고객센터</a>
+                <ol class="depth2">
+                  <li>
+                    <a href="/bbs/board.php?bo_table=notice">
+                      공지사항
+                    </a>
+                  </li>
+                  <li>
+                    <a href="../member/login.html">
+                      고객지원
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/bbs/board.php?bo_table=file">
+                      자료실
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/bbs/board.php?bo_table=gallery">
+                      소식
+                    </a>
+                  </li>
+                </ol>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!--햄버거 메뉴-->
+    <div class="popup_menu">
+      <ul class="popup_depth1">
+        <li>
+          <a href="./sub01_01.html">
+            회사소개
+          </a>
+          <ul class="popup_depth2">
+            <li>
+              <a href="./sub01_01.html">연혁</a>
+            </li>
+            <li>
+              <a href="./sub01_02.html">인증 및 자격</a>
+            </li>
+            <li>
+              <a href="/bbs/board.php?bo_table=news">보도자료</a>
+            </li>
+            <li>
+              <a href="./sub01_04.html">오시는 길</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./sub02_01.html">
+            사업분야
+          </a>
+          <ul class="popup_depth2">
+            <li>
+              <a href="./sub02_01.html">솔루션 개발</a>
+            </li>
+            <li>
+              <a href="./sub02_02.html">기업 사이트 구축</a>
+            </li>
+            <li>
+              <a href="./sub02_03.html">구축사례</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/bbs/board.php?bo_table=notice">
+            고객센터
+          </a>
+          <ul class="popup_depth2">
+            <li>
+              <a href="/bbs/board.php?bo_table=notice">공지사항</a>
+            </li>
+            <li>
+              <a href="../member/login.html">고객지원</a>
+            </li>
+            <li>
+              <a href="/bbs/board.php?bo_table=file">자료실</a>
+            </li>
+            <li>
+              <a href="/bbs/board.php?bo_table=gallery">소식</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <button type="button" class="btn_close hvr-grow">
+        <i class="xi-close"></i>
+      </button>
+    </div>
+    <!-- 메인 -->
+    <main id="sub_container">
+      <!--서브 공통-->
+      <div class="sub_top">
+        <div class="sub_top_bg"></div>
+        <div class="sub_top_txt">
+          <div class="page_location wow fadeInDown">
+            <i class="xi-home-o"></i>
+            <span>
+              회사소개
+            </span>
+            <span>
+              연혁
+            </span>
+          </div>
+          <h2 class="wow fadeInUp" data-wow-delay="0.4s">
+          History
+          </h2>
+        </div>
+        <ul class="page_depth">
+          <li class="on">
+            <a href="./sub01_01.html">
+              연혁
+            </a>
+          </li>
+          <li>
+            <a href="./sub01_02.html">
+              인증 및 자격
+            </a>
+          </li>
+          <li>
+            <a href="/bbs/board.php?bo_table=news">
+              보도자료
+            </a>
+          </li>
+          <li>
+            <a href="./sub01_04.html">
+              오시는 길
+            </a>
+          </li>
+        </ul>
+        <!-- 모바일 버전 -->
+        <div class="mo_page_depth">
+          <span>
+            연혁
+          </span>          
+          <ul class="page_depth2">
+            <li class="on">
+              <a href="./sub01_01.html">
+                연혁
+              </a>
+            </li>
+            <li>
+              <a href="./sub01_02.html">
+                인증 및 자격
+              </a>
+            </li>
+            <li>
+              <a href="/bbs/board.php?bo_table=news">
+                보도자료
+              </a>
+            </li>
+            <li>
+              <a href="./sub01_04.html">
+                오시는 길
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub_container_inner">
+        <h3>연혁</h3>
+        <!--여기에 각자의 콘텐츠 코딩 추가하시면 합니다.-->
+        <div class="full-section">
+          <section class="section2024">
+            <div class="year-text wow fadeInLeft">
+              <div class="year">
+                <h4>
+                  2024
+                </h4>
+              </div>
+              <div class="text">
+                <ul>
+                  <li>
+                    동원시스템즈 2차전지 포장 프로그램 구축
+                  </li>
+                  <li>                  
+                    부경대학교 디지털스마트부산아카데미 사업 체결(SW인재양성) 3차년도 계약
+                  </li>
+                  <li>                    
+                    부경대학교 산학연협력 선도대학 육성사업(LINC 3.0) 3차년도 수행
+                  </li>
+                  <li>                  
+                    NCS기업활용컨설팅 협약
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="img">
+              <img src="../images/sub/history/img-history-2024.jpg">
+          </section>
+          <section class="section2023">
+            <div class="year-text wow fadeInRight">
+                <div class="year">
+                  <h4>
+                    2023
+                  </h4>
+                </div>
+                <div class="text">
+                  <ul>
+                    <li>
+                    지능형생산스케줄링 솔루션 i-Scheduler v1.5 전력파트너 협약 체결</li>
+
+                    <li>부경대학교 미세먼지관리 특성화대학원 사업 체결 23.9.1~</li>
+                    
+                    <li>부산과학기술정보서비스(BTIS) 기능 고도화1 계약</li>
+                    
+                    <li>지티솔루션 병상관리시스템 개발 용역</li>
+                    
+                    <li>삼양사 계근관리시스템 계약</li>
+                    
+                    <li>부경대학교 산학연협력 선도대학 육성사업(LINC 3.0) 2년차 수행</li>
+                    
+                    <li>다이브채널 WEB 구축</li>
+                    
+                    <li>코넥 Everest라인 LMS 구축</li>
+                    <br>
+                    <li><i>스마트팩토리 AS지원사업</i></li>
+                    <b>→ ㈜대지에스텍, ㈜대성테크윈, ㈜에코스틸</b><br><br>
+                    
+                    <li><i>스마트팩토리 사업 민간 구축</i></li>
+                    <b>→ 교하산업, 모던텍</b><br><br>
+                    
+                    <li><i>중소벤처기업부 [중소기업 혁신바우처] 수행기관 선정</i><br></li>
+                    <b>→ 시스템 및 시설구축, 홍보지원, 스마트공장 추진전략, 디자인 개선, 브랜드 지원, 제조혁신 추진전략 </b>
+                  </ul>
+                </div>
+
+            </div>
+            <div class="img">
+              <img src="../images/sub/history/img-history-2023.jpg">
+            </div>
+          </section>
+          <section class="section2022">
+            <div class="year-text wow fadeInLeft">
+              <div class="year">
+                <h4>
+                  2022
+                </h4>
+              </div>
+              <div class="text">
+                <ul>
+                  <li>
+                  와인모임플랫폼 와인투게더 WEB 구축<br></li>
+                  <li>
+                  조선통신사 디지털 아카이브 WEB / VR 구축<br></li>
+                  <li>
+                  통합예약 커뮤니티 다이브채널 시즌 2<br></li>
+                  <li>
+                  현대중공업 표준폼관리 시스템 WEB 구축<br></li>
+                  <li>
+                  대지에스택 모바일 WEB 구축<br></li>
+                  <li>
+                  메뉴판 주문앱 WEB/APP 구축<br></li>
+                  <li>
+                  영인하이텍 홈페이지 구축<br></li>
+                  <li>
+                  한국도로공사 경남본부 현장관리시스템 WEB 구축<br></li>
+                  <li>
+                  울산광역교육연구정보원 스쿨넷 교육망 전산관리 WEB 구축</li><br>
+                  <li>
+                  <i>ERP 모바일 APP</i></li>
+                  
+                    <b>
+                    →현대스틸, 화인, 이호기획, SNC, 대성테크윈, 현대오토솔루션</b><br><br>
+                  
+                  <li><i>스마트팩토리 지원사업 - MES 구축</i></li>
+                  <b>
+                  →주&#41;한동산업, 주&#41;더블스윗, 이호기획, 주&#41;가야양조, 주&#41;영인하이텍,<br>
+                  주&#41;프리비, 주&#41;삼화기업 주&#41;금강에스엠, 주&#41;화인, SNC, 주&#41;태동스틸</b>
+                </ul>
+              </div>
+            </div>
+            <div class="img">
+              <img src="../images/sub/history/img-history-2022.jpg">
+            </div>
+          </section>
+
+          <section class="section2021">
+            <div class="year-text wow fadeInRight">
+              <div class="year">
+                <h4>
+                  2021
+                </h4>
+              </div>
+              <div class="text">
+                <ul>
+                  <li>
+                  스마트 세이프 가드레일 2021-2022</li>
+                  <li>
+                  통합예약 커뮤니티 다이브채널 구축</li>
+                  <li>
+                  네트워크 플랫폼 윗팜 구축</li>
+                  <li>
+                  DRONOUS 드론관제시스템 개발 참여</li>
+                  <li>
+                  ISO 9001:2015 인증 획득</li><br>
+
+                  <li><i>스마트팩토리 지원사업 - MES 구축</i></li>
+                  <b>
+                  →주&#41;이레콘텍, 주&#41;KDA, 주&#41;삼화기업, 주&#41;대흥콘크리트, 주&#41;화인, 주&#41;프리비, 주&#41;대지에스텍, 주&#41;이노메카닉스, 주&#41;현대스틸,
+                  주&#41;현대스틸인천공장, 주&#41;대성테크윈, SNC</b>
+                </ul>
+              </div>
+            </div>
+            <div class="img">
+              <img src="../images/sub/history/img-history-2021.jpg">
+            </div>
+          </section>
+
+          <section class="section2020">
+            <div class="year-text wow fadeInLeft">
+              <div class="year">
+                <h4>
+                  2020
+                </h4>
+              </div>
+              <div class="text">
+                <ul>
+                  <li>
+                  주&#41; 소나무정보기술 설립<br></li>
+                  <li>주&#41; 코넥 테슬라 LHS라인 LMS시스템 구축<br></li>
+                  <li>주&#41; 코넥 테슬라 RHS라인 LMS시스템 구축<br></li>
+                  <li>주&#41; 제이소프트 기술 용역계약<br></li>
+                  <li>주&#41; THE SAFETY PMS시스템 구축<br></li>
+                  <li>주&#41; 부산철강 MES 구축<br></li>
+                  <li>주&#41; 웰스테크 MSS 기술지원계약<br></li>
+                  <li>AR기반 양식장 수중모니터링 증강현실 (부산테크노파크)<br></li>
+                  <li>SPSYSTEMS 5G AR기반 스마트갠트리로더 개발 (부산경제진흥원)<br>
+                  <li>주&#41; 엔케이 Batch프로그램 구축</li>
+                </ul>
+              </div>
+            </div>
+            <div class="img">
+              <img src="../images/sub/history/img-history-2020.jpg">
+            </div>
+          </section>
+        </div>
+
+      </div>
+      <!--//서브 공통-->
+
+    </main>
+    <!--푸터-->
+    <footer id="footer">
+      <div class="footer_inner">
+        <h1>
+          <a href="../index.html">
+            <img src="../images/common/img_logo.png" alt="주식회사 소나무정보기술">
+          </a>
+        </h1>
+        <div class="footer_right">
+          <ul class="address_kor">
+            <li>
+              <b>회사명</b>
+              <span>주식회사 소나무정보기술</span>
+            </li>
+            <li>
+              <b>대표자</b>
+              <span>최재영</span>
+            </li>
+            <li>
+              <b>사업자등록번호</b>
+              <span>735-86-01813</span>
+            </li>
+            <li>
+              <b>개발센터</b>
+              <span>부산광역시 사상구 대동로 303 부산디지털밸리 1203호</span>
+            </li>
+            <li>
+              <b>연락처</b>
+              <span>(051) 714-0034</span>
+            </li>
+            <li>
+              <b>본사</b>
+              <span>부산광역시 부산진구 엄광로 176 331호 (동의대학교 산학협력단)</span>
+            </li>
+          </ul>
+          <ul class="address_eng">
+            <li>
+              <b>Name</b>
+              <span>Pine Information Technology Co., Ltd</span>
+            </li>
+            <li>
+              <b>CEO</b>
+              <span>Choi Jaeyeong</span>
+            </li>
+            <li>
+              <b>EID</b>
+              <span>735-86-01813</span>
+            </li>
+            <li>
+              <b>Address (Lab)</b>
+              <span>1203-ho, 303, Daedong-ro, Sasang-gu, Busan</span>
+            </li>
+            <li>
+              <b>Tel.</b>
+              <span>(051) 714-0034</span>
+            </li>
+            <li>
+              <b>Head Office</b>
+              <span>331-ho, 176, Eomgwang-ro, Busanjin-gu, Busan</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!--원격&탑버튼-->
+    <div class="quick_menu_btn">
+      <a class="remote_btn" onclick="showDownMd()">
+        원격지원
+      </a>
+      <a href="#" class="top_btn"></a>
+    </div>
+  </div>
+
+  <!-- 다운로드 팝업창 -->
+  <section id="downMd">
+    <div class="down-hd">
+        <p>안내</p>
+    </div>
+    <div class="down-body">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="rgba(148,176,204,1)"><path d="M12.4142 5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H10.4142L12.4142 5ZM4 5V19H20V7H11.5858L9.58579 5H4ZM13 13H16L12 17L8 13H11V9H13V13Z"></path></svg>
+      <br>
+      <p>원격지원 프로그램 설치파일을 다운로드합니다.</p>
+        <div class="down-body-btns">
+            <button type="button" onclick="fileDown()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,0.5)"><path d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"></path></svg>
+                <p>확인</p>
+            </button>                
+            <button type="button" onclick="closeDownMd()">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,0.5)"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg>
+                <p>취소</p>
+            </button>             
+        </div>
+    </div>
+</section>
+
+  <script>
+    new WOW().init();
+
+    const downMd = document.getElementById('downMd');
+
+    /* 다운로드 팝업창 열기/닫기 */
+
+    function fileDown() {
+      location.href='./download/client.exe';
+      downMd.classList.toggle('on');
+    }
+
+    function closeDownMd() {
+      downMd.classList.toggle('on');
+    }
+
+    function showDownMd() {
+      if (downMd.classList.contains('on')) {
+
+      } else {
+        downMd.classList.toggle('on');
+      }
+      
+    }
+  </script>
+  
+</body>
+</html>

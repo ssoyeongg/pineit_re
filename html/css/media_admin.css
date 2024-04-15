@@ -1,0 +1,905 @@
+/*미디어쿼리*/
+@media screen and (max-width:1490px) {
+  #sub_container .sub_top02 .sub_top_txt{
+    padding: 45px 50px 0;
+  }
+  #sub_container .log_in{
+    padding: 20px 50px 10px;
+  }
+  #sub_container .process{
+    padding: 0 50px 130px 50px;
+  }
+}
+
+@media screen and (max-width:1440px) {
+  /*normal*/
+  .table-box {
+    overflow-x:auto;
+  }
+  #sub_container .process .form{
+    height: 275px;
+  }
+  #sub_container .process .inquiry .top_form{
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  #sub_container .process .inquiry .bot_form{
+    flex-direction: column;
+  }
+  #sub_container .process .inquiry .top_form .tit_form{
+    margin: 0 auto;
+  }
+  #sub_container .process .inquiry .top_form .date_form b{
+    padding-left: 0;
+    padding-right: 68px;
+  }
+  #sub_container .process .inquiry .top_form .date_form input{
+    width: 210px;
+  }
+  #sub_container .process .inquiry .top_form .category b{
+    padding-left: 38px;
+  }
+  #sub_container .process .inquiry .top_form .category select{
+    width: 210px;
+  }
+  #sub_container .process .inquiry .bot_form .progress b{
+    padding-left: 0;
+    padding-right: 68px;
+  }
+  #sub_container .process .inquiry .bot_form .progress select{
+    width: 210px;
+  }
+  #sub_container .process .inquiry .bot_form .important b{
+    padding-left: 40px;
+  }
+  #sub_container .process .inquiry .bot_form .important select{
+    width: 210px;
+  }
+  #sub_container .process .inquiry .top_form .sub_form01{
+    margin-top: 10px;
+    justify-content: center;
+  }
+  #sub_container .process .inquiry .bot_form .sub_form02{
+    justify-content: center;
+  }
+  #sub_container .process .inquiry .bot_form .sub_form03{
+    margin-top: 10px;
+    justify-content: center;
+  }
+  #sub_container .process .basic .top_form{
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  #sub_container .process .basic .bot_form{
+    flex-direction: column;
+  }
+  #sub_container .process .basic .top_form .tit_form{
+    margin: 0 auto;
+  }
+  #sub_container .process .basic .top_form .date_form b{
+    padding-left: 0;
+    padding-right: 68px;
+  }
+  #sub_container .process .basic .top_form .date_form input{
+    width: 210px;
+  }
+  #sub_container .process .basic .top_form .category b{
+    padding-left: 38px;
+  }
+  #sub_container .process .basic .top_form .category select{
+    width: 210px;
+  }
+  #sub_container .process .basic .bot_form .progress b{
+    padding-left: 0;
+    padding-right: 68px;
+  }
+  #sub_container .process .basic .bot_form .progress select{
+    width: 210px;
+  }
+  #sub_container .process .basic .bot_form .important b{
+    padding-left: 40px;
+  }
+  #sub_container .process .basic .bot_form .important select{
+    width: 210px;
+  }
+  #sub_container .process .basic .top_form .sub_form05{
+    margin-top: 10px;
+    justify-content: center;
+  }
+  #sub_container .process .basic .bot_form .sub_form06{
+    justify-content: center;
+  }
+  #sub_container .process .basic .bot_form .sub_form07{
+    margin-top: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:1390px){
+  #sub_container .process .condition{
+    height: 230px;
+  }
+  #sub_container .process .condition .con_area{
+    display: block;
+  }
+  #sub_container .process .condition .con_area strong{
+    margin: 10px 0;
+  }
+  #sub_container .process .condition .con_area .con_search strong{
+    margin-top: 0;
+  }
+  #sub_container .process .condition .con_button{
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width:1240px){
+  #sub_container .process .detail .form{
+    height: 220px;
+  }
+  #sub_container .process .detail .top_form{
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  #sub_container .process .detail .top_form .sub_form04{
+    margin-bottom: 10px;
+  }
+  #sub_container .process .detail .top_form .number{
+    padding-right: 20px;
+  }
+  #sub_container .process .detail .top_form .number b{
+    padding-right: 30px;
+  }
+  #sub_container .process .detail .top_form .worker b{
+    padding-right: 30px;
+  }
+  #sub_container .process .detail .top_form .work_date b{
+    padding-right: 30px;
+  }
+  #sub_container .process .detail .bot_form .rate{
+    padding-right: 20px;
+  }
+  #sub_container .process .detail .bot_form .rate b{
+    padding-right: 15px;
+  }
+  #sub_container .process .detail .bot_form .pro_category b{
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width:990px){
+  #sub_container .sub_top02 .sub_top_txt h2{
+    font-size: 70px;
+  }
+  #sub_container .sub_top02 .sub_top_txt .page_location span{
+    font-size: 20px;
+  }
+  #sub_container .process .process_tit h5{
+    font-size: 22px;
+  }
+  #sub_container .process > h5{
+    font-size: 22px;
+  }
+  #sub_container .process .condition{
+    flex-direction: column;
+    height: 250px;
+  }
+  #sub_container .process .condition .con_area strong{
+    font-size: 16px;
+  }
+  #sub_container .process .condition .con_area .con_search{
+    padding-right: 0;
+  }
+  #sub_container .process .condition .con_area .con_search strong{
+    margin-top: 10px;
+  }
+  #sub_container .process .condition .con_area .con_search input{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+  }
+  #sub_container .process .condition .con_area .con_date input{
+    height: 30px;
+    font-size: 14px;
+  }
+  #sub_container .process .condition .con_button{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  #sub_container .process .condition .con_button button{
+    width: 80px;
+    font-size: 14px;
+  }
+  #sub_container .process .condition .con_button a{
+    width: 110px;
+  }
+  #sub_container .process .condition .con_button a span{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:820px){
+  #sub_container .process .inquiry .top_form .tit_form b{
+    padding-right: 60px;
+  }
+  #sub_container .process .inquiry .top_form .tit_form input{
+    width: 400px;
+    font-size: 14px;
+  }
+  #sub_container .process .inquiry .top_form .date_form b{
+    padding-right: 30px;
+  }
+  #sub_container .process .inquiry .top_form .category b{
+    padding-left: 28px;
+    padding-right: 30px;
+  }
+  #sub_container .process .inquiry .top_form .date_form input{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .inquiry .top_form .category select{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .inquiry .bot_form .complete_form input{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .inquiry .bot_form .medhod select{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .inquiry .bot_form .progress select{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .inquiry .bot_form .important select{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .inquiry .bot_form .complete_form b{
+    padding-right: 0;
+  }
+  #sub_container .process .inquiry .bot_form .medhod b{
+    padding-left: 28px;
+    padding-right: 30px;
+  }
+  #sub_container .process .inquiry .bot_form .progress b{
+    padding-right: 31px;
+  }
+  #sub_container .process .inquiry .bot_form .important b{
+    padding-left: 30px;
+    padding-right: 42px;
+  }
+  #sub_container .process .detail .form{
+    height: 320px;
+  }
+  #sub_container .process .detail .top_form .sub_form04{
+    flex-direction: column;
+  }
+  #sub_container .process .detail .top_form .worker{
+    padding-top: 10px;
+  }
+  #sub_container .process .detail .top_form .worker b{
+    padding-right: 45px;
+  }
+  #sub_container .process .detail .bot_form{
+    flex-direction: column;
+  }
+  #sub_container .process .detail .bot_form .pro_category b{
+    padding-right: 30px;
+  }
+  #sub_container .process .detail .bot_form .rate{
+    padding-bottom: 10px;
+  }
+  #sub_container .process .detail .form input{
+    width: 160px;
+    font-size: 14px;
+  }
+  #sub_container .process .detail select{
+    width: 160px;
+    font-size: 14px;
+  }
+  #sub_container .process .basic .top_form .tit_form b{
+    padding-right: 60px;
+  }
+  #sub_container .process .basic .top_form .tit_form input{
+    width: 400px;
+    font-size: 14px;
+  }
+  #sub_container .process .basic .top_form .date_form b{
+    padding-right: 30px;
+  }
+  #sub_container .process .basic .top_form .category b{
+    padding-left: 28px;
+    padding-right: 30px;
+  }
+  #sub_container .process .basic .top_form .date_form input{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .basic .top_form .category select{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .basic .bot_form .complete_form input{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .basic .bot_form .medhod select{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .basic .bot_form .progress select{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .basic .bot_form .important select{
+    width: 140px;
+    font-size: 14px;
+  }
+  #sub_container .process .basic .bot_form .complete_form b{
+    padding-right: 0;
+  }
+  #sub_container .process .basic .bot_form .medhod b{
+    padding-left: 28px;
+    padding-right: 30px;
+  }
+  #sub_container .process .basic .bot_form .progress b{
+    padding-right: 31px;
+  }
+  #sub_container .process .basic .bot_form .important b{
+    padding-left: 30px;
+    padding-right: 42px;
+  }
+}
+@media screen and (max-width:690px){
+  #sub_container .process .password_area{
+    width: 500px;
+  }
+  #sub_container .process .password_area .pass_inner .pass_id b{
+    padding-right: 110px;
+    font-size: 16px;
+  }
+  #sub_container .process .password_area .pass_inner .pass_exist b{
+    padding-right: 34px;
+    font-size: 16px;
+  }
+  #sub_container .process .password_area .pass_inner .pass_new b{
+    padding-right: 49px;
+    font-size: 16px;
+  }
+  #sub_container .process .password_area .pass_inner .pass_check b{
+    padding-right: 15px;
+    font-size: 16px;
+  }
+  #sub_container .process .password_area .pass_inner input{
+    width: 280px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:630px){
+  #sub_container .process .form{
+    height: 420px;
+  }
+  #sub_container .process .process_tit{
+    justify-content: center;
+  }
+  #sub_container .process .inquiry .top_form .tit_form b{
+    padding-right: 60px;
+  }
+  #sub_container .process .inquiry .top_form .tit_form input{
+    width: 200px;
+  }
+  #sub_container .process .inquiry .top_form .sub_form01{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #sub_container .process .inquiry .top_form .sub_form01 .date_form{
+    padding: 10px 0;
+  }
+  #sub_container .process .inquiry .top_form .date_form b{
+    padding-right: 30px;
+  }
+  #sub_container .process .inquiry .top_form .date_form input{
+    width: 200px;
+  }
+  #sub_container .process .inquiry .top_form .category b{
+    padding-left: 0;
+    padding-right: 30px;
+  }
+  #sub_container .process .inquiry .top_form .category select{
+    width: 200px;
+  }
+  #sub_container .process .inquiry .bot_form .sub_form02{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #sub_container .process .inquiry .bot_form .complete_form b{
+    padding-right: 1px;
+  }
+  #sub_container .process .inquiry .bot_form .complete_form input{
+    width: 200px;
+  }
+  #sub_container .process .inquiry .bot_form .medhod{
+    padding: 10px 0;
+  }
+  #sub_container .process .inquiry .bot_form .medhod b{
+    padding-left: 0;
+  }
+  #sub_container .process .inquiry .bot_form .medhod select{
+    width: 200px;
+  }
+  #sub_container .process .inquiry .bot_form .sub_form03{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #sub_container .process .inquiry .bot_form .progress{
+    padding-bottom: 10px;
+  }
+  #sub_container .process .inquiry .bot_form .progress b{
+    padding-right: 30px;
+  }
+  #sub_container .process .inquiry .bot_form .progress select{
+    width: 200px;
+  }
+  #sub_container .process .inquiry .bot_form .important b{
+    padding-left: 0;
+    padding-right: 45px;
+  }
+  #sub_container .process .inquiry .bot_form .important select{
+    width: 200px;
+  }
+  #sub_container .process .inquiry .inquiry_txt{
+    margin-top: 20px;
+  }
+  #sub_container .process .attachment .attach_inner{
+    height: 310px;
+  }
+  
+  #sub_container .process .basic .top_form .tit_form b{
+    padding-right: 60px;
+  }
+  #sub_container .process .basic .top_form .tit_form input{
+    width: 200px;
+  }
+  #sub_container .process .basic .top_form .sub_form05{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #sub_container .process .basic .top_form .sub_form05 .date_form{
+    padding: 10px 0;
+  }
+  #sub_container .process .basic .top_form .date_form b{
+    padding-right: 30px;
+  }
+  #sub_container .process .basic .top_form .date_form input{
+    width: 200px;
+  }
+  #sub_container .process .basic .top_form .category b{
+    padding-left: 0;
+    padding-right: 30px;
+  }
+  #sub_container .process .basic .top_form .category select{
+    width: 200px;
+  }
+  #sub_container .process .basic .bot_form .sub_form06{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #sub_container .process .basic .bot_form .complete_form b{
+    padding-right: 1px;
+  }
+  #sub_container .process .basic .bot_form .complete_form input{
+    width: 200px;
+  }
+  #sub_container .process .basic .bot_form .medhod{
+    padding: 10px 0;
+  }
+  #sub_container .process .basic .bot_form .medhod b{
+    padding-left: 0;
+  }
+  #sub_container .process .basic .bot_form .medhod select{
+    width: 200px;
+  }
+  #sub_container .process .basic .bot_form .sub_form07{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #sub_container .process .basic .bot_form .progress{
+    padding-bottom: 10px;
+  }
+  #sub_container .process .basic .bot_form .progress b{
+    padding-right: 30px;
+  }
+  #sub_container .process .basic .bot_form .progress select{
+    width: 200px;
+  }
+  #sub_container .process .basic .bot_form .important b{
+    padding-left: 0;
+    padding-right: 45px;
+  }
+  #sub_container .process .basic .bot_form .important select{
+    width: 200px;
+  }
+  #sub_container .process .basic .inquiry_txt{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:600px){
+  #sub_container .process .condition{
+    padding: 20px;
+    height: 100%;
+  }
+  #sub_container .process .condition .con_area{
+    width: 100%;
+  }
+  #sub_container .process .condition .con_button{
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  #sub_container .process .condition .con_area .con_date span{
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:575px){
+  #sub_container .process > h5{
+    margin: 40px 0 18px;
+  }
+  #sub_container .sub_top02{
+    height: 220px;
+  }
+  #sub_container .sub_top02 .sub_top_txt .page_location span{
+    font-size: 18px;
+  }
+  #sub_container .sub_top02 .sub_top_txt h2{
+    margin-top: 30px;
+    font-size: 55px;
+  }
+  #sub_container .log_in strong{
+    font-size: 12px;
+  }
+  #sub_container .log_in .log_txt{
+    font-size: 12px;
+  }
+  #sub_container .log_in .log_txt a{
+    width: 95px;
+    height: 25px;
+    line-height: 25px;
+  }
+  #sub_container .process{
+    padding: 0 20px 70px 20px;
+  }
+  #sub_container .process .process_tit h5{
+    font-size: 20px;
+  }
+  #sub_container .process .condition .con_area .con_search input{
+    width: 100%;
+  }
+  #sub_container .process .condition .con_area .con_date input{
+    width: 100%;
+  }
+  #sub_container .process .condition .con_area .con_date span{
+    padding: 0 5px;
+  }
+  #sub_container .process .detail .form{
+    padding-left: 70px;
+  }
+  #sub_container .process .detail .form input{
+    width: 140px;
+  }
+  #sub_container .process .detail select{
+    width: 140px;
+  }
+  #sub_container .process .basic h5{
+    margin-top: 20px;
+  }
+  #sub_container .process .save_section{
+    padding: 30px 0 15px;
+  }
+  #sub_container .process .attachment .attach_tit_bot h5{
+    font-size: 20px;
+  }
+  #sub_container .process .attachment .attach_tit_bot .att_bot{
+    align-items: end;
+  }
+  #sub_container .process .attachment .attach_tit_bot .att_bot a{
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  .filebox label{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  #sub_container .process .attachment .attach_tit_bot .att_bot button{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  #sub_container .process .attachment .attach_tit_bot .att_bot .filebox{
+    margin: 0 5px;
+  }
+  #sub_container .process .attachment .attach_inner{
+    height: 370px;
+  }
+  #sub_container .process .attachment .list a{
+    font-size: 14px;
+  }
+  #sub_container .process .save_section{
+    flex-direction: column;
+    align-items: end;
+  }
+  #sub_container .process .save_section .save_next{
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  #sub_container .process .save_section .save_next span{
+    font-size: 12px;
+  }
+  #sub_container .process .save_section .save_point button{
+    font-size: 12px;
+  }
+  #sub_container .process .save_section .save_point button:first-child{
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+  }
+  #sub_container .process .save_section .save_point button:nth-child(2){
+    margin: 0 5px;
+    height: 35px;
+    line-height: 35px;
+  }
+  #sub_container .process .save_section .save_point button:last-child{
+    height: 35px;
+    line-height: 35px;
+  }
+
+  #sub_container .process > h5{
+    font-size: 20px;
+  }
+  #sub_container .process .password_area{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  #sub_container .process .password_area .pass_inner .pass_id b{
+    display: block;
+    padding-right: 0;
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  #sub_container .process .password_area .pass_inner .pass_exist b{
+    display: block;
+    padding-right: 0;
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  #sub_container .process .password_area .pass_inner .pass_new b{
+    display: block;
+    padding-right: 0;
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  #sub_container .process .password_area .pass_inner .pass_check b{
+    display: block;
+    padding-right: 0;
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  #sub_container .process .password_area .pass_inner input{
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+  }
+  #sub_container .process .password_area .pass_send button{
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+  }
+  #sub_container .process .password_area .pass_send{
+    padding: 0;
+  }
+
+}
+@media screen and (max-width:510px){
+  #sub_container .process .condition .con_area .con_date input{
+    width: 100%;
+  }
+  #sub_container .process .condition .con_button{
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width:440px){
+  #sub_container .sub_top02 .sub_top_txt .page_location{
+    column-gap: 60px;
+  }
+  #sub_container .sub_top02{
+    height: 180px;
+  }
+  #sub_container .sub_top02 .sub_top_txt .page_location span{
+    font-size: 12px;
+  }
+  #sub_container .sub_top02 .sub_top_txt h2{
+    font-size: 40px;
+  }
+  #sub_container .log_in{
+    padding: 20px 30px 10px;
+  }
+  #sub_container .log_in strong{
+    margin-right: 10px;
+  }
+  #sub_container .log_in .log_txt a{
+    width: 85px;
+    height: 20px;
+    line-height: 20px;
+  }
+  #sub_container .process > h5{
+    margin: 40px 0 20px;
+    font-size: 18px;
+  }
+  #sub_container .process .form{
+    padding: 20px;
+    height: 100%;
+  }
+  #sub_container .process .inquiry .top_form .tit_form{
+    margin: 0;
+  }
+  #sub_container .process .inquiry .top_form .tit_form input{
+    width: 100%;
+    height: 35px;
+  }
+  #sub_container .process .inquiry .top_form .sub_form01{
+    margin: 0;
+  }
+  #sub_container .process .inquiry .top_form .date_form input{
+    width: 100%;
+    height: 35px;
+  }
+  #sub_container .process .inquiry .top_form .category select{
+    width: 100%;
+    height: 35px;
+  }
+  #sub_container .process .inquiry .bot_form .sub_form02{
+    margin: 0;
+  }
+  #sub_container .process .inquiry .bot_form .complete_form input{
+    width: 100%;
+    height: 35px;
+  }
+  #sub_container .process .inquiry .bot_form .medhod select{
+    width: 100%;
+    height: 35px;
+  }
+  #sub_container .process .inquiry .bot_form .sub_form03{
+    margin: 0;
+  }
+  #sub_container .process .inquiry .bot_form .progress select{
+    width: 100%;
+    height: 35px;
+  }
+  #sub_container .process .inquiry .bot_form .important select{
+    width: 100%;
+    height: 35px;
+  }
+  #sub_container .process .attachment .attach_tit_bot h5{
+    font-size: 18px;
+  }
+  #sub_container .process .attachment .attach_tit_bot .att_bot a{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  .filebox label{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  #sub_container .process .attachment .attach_tit_bot .att_bot button{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  #sub_container .process .attachment .list a{
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+
+  #sub_container .process .basic .top_form .tit_form{
+    margin: 0;
+  }
+  #sub_container .process .basic .top_form .tit_form input{
+    width: 100%;
+  }
+  #sub_container .process .basic .top_form .sub_form05{
+    margin: 0;
+  }
+  #sub_container .process .basic .top_form .date_form input{
+    width: 100%;
+  }
+  #sub_container .process .basic .top_form .category select{
+    width: 100%;
+  }
+  #sub_container .process .basic .bot_form .sub_form06{
+    margin: 0;
+  }
+  #sub_container .process .basic .bot_form .complete_form input{
+    width: 100%;
+  }
+  #sub_container .process .basic .bot_form .medhod select{
+    width: 100%;
+  }
+  #sub_container .process .basic .bot_form .sub_form07{
+    margin: 0;
+  }
+  #sub_container .process .basic .bot_form .progress select{
+    width: 100%;
+  }
+  #sub_container .process .basic .bot_form .important select{
+    width: 100%;
+  }
+
+  #sub_container .process .detail .form{
+    padding: 20px;
+    height: 100%;
+  }
+  #sub_container .process .detail .top_form .number b{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #sub_container .process .detail .top_form .worker b{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #sub_container .process .detail .top_form .work_date b{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #sub_container .process .detail .bot_form .rate b{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #sub_container .process .detail .bot_form .pro_category b{
+    display: block;
+    margin-bottom: 5px;
+  }
+  #sub_container .process .detail .top_form .number{
+    padding-right: 0;
+  }
+  #sub_container .process .detail .top_form .worker{
+    padding-right: 0;
+  }
+  #sub_container .process .detail .bot_form .rate{
+    padding-right: 0;
+  }
+  #sub_container .process .detail .form input{
+    width: 100%;
+  }
+  #sub_container .process .detail select{
+    width: 100%;
+  }
+  #sub_container .process .condition .con_button button{
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+  }
+  #sub_container .process .condition .con_button a{
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+  }
+  #sub_container .process .condition .con_button a span{
+    font-size: 12px;
+  }
+}

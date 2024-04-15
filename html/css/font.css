@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*넥슨 고딕체*/
+@font-face {
+  font-family: 'NEXON Lv1 Gothic';
+  src: url('/font/NEXONLv1GothicLight.woff2') format('woff2'),
+      url('/font/NEXONLv1GothicLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NEXON Lv1 Gothic';
+  src: url('/font/NEXONLv1GothicRegular.woff2') format('woff2'),
+      url('/font/NEXONLv1GothicRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NEXON Lv1 Gothic';
+  src: url('/font/NEXONLv1GothicBold.woff2') format('woff2'),
+      url('/font/NEXONLv1GothicBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

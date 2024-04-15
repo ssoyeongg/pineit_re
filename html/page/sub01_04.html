@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/hover.css">
+  <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/media.css">
+  <link rel="stylesheet" href="../css/sub.css">
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/wow.min.js"></script>
+  <script src="../js/main.js"></script>
+  <title>주식회사 소나무정보기술</title>
+</head>
+<body>
+  <div class="wrap">
+    <!--헤더-->
+    <header id="header">
+      <div class="header_inner">
+        <h1 class="header_logo">
+          <a href="../index.html">
+            <img src="../images/common/img_logo.png" alt="주식회사 소나무정보기술">
+          </a>
+        </h1>
+        <div class="right_area">
+          <nav id="navi">
+            <ul class="gnb">
+              <li>
+                <a href="./sub01_01.html">회사소개</a>
+                <ol class="depth2">
+                  <li>
+                    <a href="./sub01_01.html">
+                      연혁
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./sub01_02.html">
+                      인증 및 자격
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/bbs/board.php?bo_table=news">
+                      보도자료
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./sub01_04.html">
+                      오시는 길
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a href="./sub02_01.html">사업분야</a>
+                <ol class="depth2">
+                  <li>
+                    <a href="./sub02_01.html">
+                      솔루션 개발
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./sub02_02.html">
+                      기업 사이트 구축
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./sub02_03.html">
+                      구축사례
+                    </a>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <a href="/bbs/board.php?bo_table=notice">고객센터</a>
+                <ol class="depth2">
+                  <li>
+                    <a href="/bbs/board.php?bo_table=notice">
+                      공지사항
+                    </a>
+                  </li>
+                  <li>
+                    <a href="../member/login.html">
+                      고객지원
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/bbs/board.php?bo_table=file">
+                      자료실
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/bbs/board.php?bo_table=gallery">
+                      소식
+                    </a>
+                  </li>
+                </ol>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!--햄버거 메뉴-->
+    <div class="popup_menu">
+      <ul class="popup_depth1">
+        <li>
+          <a href="./sub01_01.html">
+            회사소개
+          </a>
+          <ul class="popup_depth2">
+            <li>
+              <a href="./sub01_01.html">연혁</a>
+            </li>
+            <li>
+              <a href="./sub01_02.html">인증 및 자격</a>
+            </li>
+            <li>
+              <a href="/bbs/board.php?bo_table=news">보도자료</a>
+            </li>
+            <li>
+              <a href="./sub01_04.html">오시는 길</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./sub02_01.html">
+            사업분야
+          </a>
+          <ul class="popup_depth2">
+            <li>
+              <a href="./sub02_01.html">솔루션 개발</a>
+            </li>
+            <li>
+              <a href="./sub02_02.html">기업 사이트 구축</a>
+            </li>
+            <li>
+              <a href="./sub02_03.html">구축사례</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/bbs/board.php?bo_table=notice">
+            고객센터
+          </a>
+          <ul class="popup_depth2">
+            <li>
+              <a href="/bbs/board.php?bo_table=notice">공지사항</a>
+            </li>
+            <li>
+              <a href="../member/login.html">고객지원</a>
+            </li>
+            <li>
+              <a href="/bbs/board.php?bo_table=file">자료실</a>
+            </li>
+            <li>
+              <a href="/bbs/board.php?bo_table=gallery">소식</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <button type="button" class="btn_close hvr-grow">
+        <i class="xi-close"></i>
+      </button>
+    </div>
+    <!-- 메인 -->
+    <main id="sub_container">
+      <!--서브 공통-->
+      <div class="sub_top">
+        <div class="sub_top_bg"></div>
+        <div class="sub_top_txt">
+          <div class="page_location wow fadeInDown">
+            <i class="xi-home-o"></i>
+            <span>
+              회사소개
+            </span>
+            <span>
+              오시는 길
+            </span>
+          </div>
+          <h2 class="wow fadeInUp" data-wow-delay="0.4s">
+            Location
+          </h2>
+        </div>
+        <ul class="page_depth">
+          <li>
+            <a href="./sub01_01.html">
+              연혁
+            </a>
+          </li>
+          <li>
+            <a href="./sub01_02.html">
+              인증 및 자격
+            </a>
+          </li>
+          <li>
+            <a href="/bbs/board.php?bo_table=news">
+              보도자료
+            </a>
+          </li>
+          <li class="on">
+            <a href="./sub01_04.html">
+              오시는 길
+            </a>
+          </li>
+        </ul>
+        <!-- 모바일 버전 -->
+        <div class="mo_page_depth">
+          <span>
+            오시는 길
+          </span>          
+          <ul class="page_depth2">
+            <li>
+              <a href="./sub01_01.html">
+                연혁
+              </a>
+            </li>
+            <li>
+              <a href="./sub01_02.html">
+                인증 및 자격
+              </a>
+            </li>
+            <li>
+              <a href="/bbs/board.php?bo_table=news">
+                보도자료
+              </a>
+            </li>
+            <li class="on">
+              <a href="./sub01_04.html">
+                오시는 길
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub_container_inner">
+        <h3>오시는 길</h3>
+        <!--여기에 각자의 콘텐츠 코딩 추가하시면 합니다.-->
+        <div class="visit">
+          <section class="company wow fadeInDown">
+            <h4>본사</h4>
+            <!--본사-->
+            <div class="map-company">
+              <div class="map-cpny2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13048.34890716835!2d129.060646!3d35.1544453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ebb40a6cf031%3A0xf255b7423a881690!2zKOyjvCnshozrgpjrrLTsoJXrs7TquLDsiKA!5e0!3m2!1sko!2skr!4v1709098572028!5m2!1sko!2skr" width="1440" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <ul class="text">
+              <li>
+                <img src="../images/sub/visit/icon/Asset 4.svg">
+                ADDRESS
+                <p>
+                  부산광역시 부산진구 엄광로 176, 동의대학교 산학협력관 331호
+                </p>
+              </li>
+              <li>
+                <img src="../images/sub/visit/icon/Asset 5.svg">
+                TEL
+                <p>
+                  051-714-0034
+                </p>
+              </li>
+              <li>
+                <img src="../images/sub/visit/icon/icon_visit.png">
+                오시는 길
+                <p>
+                  지하철 2호선 동의대역 5번출구에서 도보 15분
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section class="research-center wow fadeInDown">
+            <h4>개발센터</h4>
+            <!--개발센터-->
+            <div class="map-research-center">
+              <div class="map-rsch2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.082095100375!2d128.98127038883572!3d35.15457328850513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568c1e07477ac3b%3A0x7746a0b7f4e0b4cf!2z67K97IKw65SU7KeA7YS467C466as!5e0!3m2!1sko!2skr!4v1709097214515!5m2!1sko!2skr" width="1440" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <ul class="text">
+              <li>
+                <img src="../images/sub/visit/icon/Asset 4.svg">
+                ADDRESS
+                <p>
+                  부산광역시 사상구 대동로 303 부산디지털밸리 1203호
+                </p>
+              </li>
+              <li>
+                <img src="../images/sub/visit/icon/Asset 5.svg">
+                TEL
+                <p>
+                  051-714-0034
+                </p>
+              </li>
+              <li>
+                <img src="../images/sub/visit/icon/icon_visit.png">
+                오시는 길
+                <p>
+                  지하철 2호선 감전역 3번출구에서 도보 10분
+                </p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!--푸터-->
+    <footer id="footer">
+      <div class="footer_inner">
+        <h1>
+          <a href="../index.html">
+            <img src="../images/common/img_logo.png" alt="주식회사 소나무정보기술">
+          </a>
+        </h1>
+        <div class="footer_right">
+          <ul class="address_kor">
+            <li>
+              <b>회사명</b>
+              <span>주식회사 소나무정보기술</span>
+            </li>
+            <li>
+              <b>대표자</b>
+              <span>최재영</span>
+            </li>
+            <li>
+              <b>사업자등록번호</b>
+              <span>735-86-01813</span>
+            </li>
+            <li>
+              <b>개발센터</b>
+              <span>부산광역시 사상구 대동로 303 부산디지털밸리 1203호</span>
+            </li>
+            <li>
+              <b>연락처</b>
+              <span>(051) 714-0034</span>
+            </li>
+            <li>
+              <b>본사</b>
+              <span>부산광역시 부산진구 엄광로 176 331호 (동의대학교 산학협력단)</span>
+            </li>
+          </ul>
+          <ul class="address_eng">
+            <li>
+              <b>Name</b>
+              <span>Pine Information Technology Co., Ltd</span>
+            </li>
+            <li>
+              <b>CEO</b>
+              <span>Choi Jaeyeong</span>
+            </li>
+            <li>
+              <b>EID</b>
+              <span>735-86-01813</span>
+            </li>
+            <li>
+              <b>Address (Lab)</b>
+              <span>1203-ho, 303, Daedong-ro, Sasang-gu, Busan</span>
+            </li>
+            <li>
+              <b>Tel.</b>
+              <span>(051) 714-0034</span>
+            </li>
+            <li>
+              <b>Head Office</b>
+              <span>331-ho, 176, Eomgwang-ro, Busanjin-gu, Busan</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!--원격&탑버튼-->
+    <div class="quick_menu_btn">
+      <a class="remote_btn" onclick="showDownMd()">
+        원격지원
+      </a>
+      <a href="#" class="top_btn"></a>
+    </div>
+  </div>
+
+  <!-- 다운로드 팝업창 -->
+  <section id="downMd">
+    <div class="down-hd">
+        <p>안내</p>
+    </div>
+    <div class="down-body">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="rgba(148,176,204,1)"><path d="M12.4142 5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H10.4142L12.4142 5ZM4 5V19H20V7H11.5858L9.58579 5H4ZM13 13H16L12 17L8 13H11V9H13V13Z"></path></svg>
+      <br>
+      <p>원격지원 프로그램 설치파일을 다운로드합니다.</p>
+        <div class="down-body-btns">
+            <button type="button" onclick="fileDown()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,0.5)"><path d="M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z"></path></svg>
+                <p>확인</p>
+            </button>                
+            <button type="button" onclick="closeDownMd()">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,0.5)"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg>
+                <p>취소</p>
+            </button>             
+        </div>
+    </div>
+</section>
+
+  <script>
+    new WOW().init();
+
+    const downMd = document.getElementById('downMd');
+
+    /* 다운로드 팝업창 열기/닫기 */
+
+    function fileDown() {
+      location.href='./download/client.exe';
+      downMd.classList.toggle('on');
+    }
+
+    function closeDownMd() {
+      downMd.classList.toggle('on');
+    }
+
+    function showDownMd() {
+      if (downMd.classList.contains('on')) {
+
+      } else {
+        downMd.classList.toggle('on');
+      }
+      
+    }
+  </script>
+  
+</body>
+</html>
