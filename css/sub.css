@@ -126,11 +126,14 @@
   font-size: 65px;
   text-align: center; 
   color: #000;
+  width: fit-content;
+  margin: 0 auto;
+  cursor: default;
+  transition: ease .5s;
 }
 
 #sub_container h3:hover{
   transform: scale(1.1);
-  transition: 0.3s;
   color: #1057B6;
 }
 
@@ -317,6 +320,56 @@
   margin-left: 20px;
 
 }
+
+#sub_container .text ul li:nth-child(n+4), #sub_container .text b, #sub_container section .text br {
+  display: none;
+}
+
+#sub_container .text ul li:nth-child(n+4).on, #sub_container .text b.on, #sub_container section .text br.on {
+  display: block;
+}
+
+.moreBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1057B6;
+  padding: 8px 18px 8px 14px;
+  border-radius: 28px;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'SC_BOLD', 'malgun gothic', swap;
+  transition: all .5s;
+  margin: 14px 0 0 20px;
+}
+
+.moreBtn:after {
+  content: '더보기';
+  display: block;
+
+}
+
+.moreBtn.on:after {
+  content: '접기';
+  display: block;
+}
+
+.moreBtn.on svg {
+  transform: rotate(180deg);
+}
+
+.moreBtn svg {
+  transition: all .5s;
+}
+
+.moreBtn:hover {
+  transform: translateY(-4px);
+}
+
+.moreBtn:hover svg {
+  fill: #fff;
+}
+
 #sub_container .section2023 li{
   position: relative;
   padding-left: 15px;

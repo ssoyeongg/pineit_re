@@ -274,6 +274,11 @@
                   </li>
                 </ul>
               </div>
+
+              <button class="moreBtn" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>
+              </button>
+
             </div>
             <div class="img">
               <img src="../images/sub/history/img-history-2024.jpg">
@@ -285,7 +290,7 @@
                     2023
                   </h4>
                 </div>
-                <div class="text">
+                <div class="text">        
                   <ul>
                     <li>
                     지능형생산스케줄링 솔루션 i-Scheduler v1.5 전력파트너 협약 체결</li>
@@ -314,6 +319,10 @@
                     <b>→ 시스템 및 시설구축, 홍보지원, 스마트공장 추진전략, 디자인 개선, 브랜드 지원, 제조혁신 추진전략 </b>
                   </ul>
                 </div>
+
+                <button class="moreBtn" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>
+                </button>
 
             </div>
             <div class="img">
@@ -359,6 +368,10 @@
                   주&#41;프리비, 주&#41;삼화기업 주&#41;금강에스엠, 주&#41;화인, SNC, 주&#41;태동스틸</b>
                 </ul>
               </div>
+
+              <button class="moreBtn" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>
+              </button>
             </div>
             <div class="img">
               <img src="../images/sub/history/img-history-2022.jpg">
@@ -391,6 +404,10 @@
                   주&#41;현대스틸인천공장, 주&#41;대성테크윈, SNC</b>
                 </ul>
               </div>
+
+              <button class="moreBtn" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>
+              </button>
             </div>
             <div class="img">
               <img src="../images/sub/history/img-history-2021.jpg">
@@ -419,6 +436,10 @@
                   <li>주&#41; 엔케이 Batch프로그램 구축</li>
                 </ul>
               </div>
+
+              <button class="moreBtn" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>
+              </button>
             </div>
             <div class="img">
               <img src="../images/sub/history/img-history-2020.jpg">
@@ -549,6 +570,26 @@
       }
       
     }
+
+    const moreBtn = document.querySelectorAll('.moreBtn');
+
+
+
+    moreBtn.forEach(function(e){
+      e.addEventListener('click', function() {
+        e.classList.toggle('on');
+
+        let items = e.parentElement.children[1].childNodes[1].children
+        
+        for(i=0; i<items.length;i++) {
+          items[i].classList.toggle('on')
+        }
+        
+
+      })
+    })
+    
+
   </script>
   
 </body>

@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'SC_BOLD';
-  src: url('/html/font/SCDream6.otf') format('opentype');
+  src: url('../font/SCDream6.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -909,7 +909,7 @@ p.center-txt {
 #footer{
   padding: 107px 0;
   width: 100%;
-  background-color: #f3f3f3;
+  background-color: #e3eeff;
 }
 #footer .footer_inner{
   display: flex;
@@ -917,7 +917,7 @@ p.center-txt {
   max-width: 1440px;
   margin: 0 auto;
   font-size: 1.5rem;
-  color: #868686;
+  color: #3e77cc;
   font-weight: 500;
 }
 #footer .footer_inner h1 a{
